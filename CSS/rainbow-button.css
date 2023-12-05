@@ -3,8 +3,8 @@
     height: 30px;
     border: none;
     outline: none;
-    color: #fff;
-    background: rgb(0 218 255 / 85%);
+    color: #000;
+    background: rgb(253 253 253);
     cursor: pointer;
     position: relative;
     z-index: 0;
