@@ -1,0 +1,68 @@
+@import url('./base.css');
+
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+.container {
+    text-align: center;
+    position: relative;
+    max-width: auto;
+    margin: auto;
+    margin-top: 4rem;
+    padding: 1rem;
+    border: 1px solid #393e46;
+    border-radius: 0.25rem;
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+.project-info {
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+
+.project-img {
+    margin: auto;
+    display: block;
+    width: 140px;
+    border-radius: 20%;
+    -webkit-animation-name: bob-float, bob;
+    animation-name: bob-float, bob;
+    -webkit-animation-duration: .2s, 1.3s;
+    animation-duration: .2s, 1.3s;
+    -webkit-animation-delay: 0s, .3s;
+    animation-delay: 0s, .2s;
+    -webkit-animation-timing-function: ease-out, ease-in-out;
+    animation-timing-function: ease-out, ease-in-out;
+    -webkit-animation-iteration-count: 1, infinite;
+    animation-iteration-count: 1, infinite;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-direction: normal, alternate;
+    animation-direction: normal, alternate;
+}

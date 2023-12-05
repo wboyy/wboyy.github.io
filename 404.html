@@ -1,0 +1,46 @@
+<!--suppress ALL -->
+<!-- Credit https://github.com/Kuuuuuuuu/ -->
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <title>likedream</title>
+    <meta content="#0000FF" name="theme-color">
+    <meta content="like my dream of you" name="Author">
+    <meta content="likedream Information Website" name="Description">
+    <meta content="website" property="og:type">
+    <meta content="likedream" property="og:title">
+    <meta content="like my dream of you" property="og:description">
+    <meta content="https://www.likedream.online/" property="og:url">
+    <meta content="https://www.likedream.online/Assets/logo.jpg" property="og:image">
+    <meta content="https://www.likedream.online/Assets/logo.jpg" property="og:image:secure_url">
+    <meta content="256" property="og:image:width">
+    <meta content="256" property="og:image:height">
+    <meta content="Hi" property="og:image:alt">
+    <link href="Assets/logo.jpg" rel="icon">
+    <link href="Assets/logo.jpg" rel="shortcut">
+    <link href="Assets/logo.jpg" rel="apple-touch-icon">
+    <meta http-eqiv="Content-Language" content="en">
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+    <link href="CSS/home.css" rel="stylesheet">
+    <script defer src="Script/Utils.js"></script>
+    <script>
+        let sec = 2;
+        setInterval(() => {
+            sec--;
+            document.getElementById("sec-text").innerText = "Redirect in " + sec + "..";
+            document.getElementById("sec-text").setAttribute("data-text", "Redirect in " + sec + "..");
+            if (sec < 1) {
+                window.location.href = "https://www.likedream.online/";
+            }
+        }, 1000);
+    </script>
+</head>
+
+<body>
+    <h1 class="glitch" data-text="404 Not Found">404 Not Found</h1>
+    <h1 class="glitch" id="sec-text" data-text="Redirect in 3..">Redirect in 3..</h1>
+</body>
+
+</html>

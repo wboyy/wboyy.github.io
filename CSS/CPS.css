@@ -1,0 +1,48 @@
+@import url('./base.css');
+
+#text {
+    text-align: center;
+    align-content: center;
+    color: #ffffff;
+}
+
+#textsmall {
+    text-align: center;
+    align-content: center;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+h3,
+h4 {
+    user-select: none;
+    text-align: center;
+    align-content: center;
+    color: #ffffff;
+}
+
+.time {
+    font-size: 25px;
+}
+
+.btn,
+.box {
+    width: 180px;
+    height: 30px;
+    border: none;
+    position: absolute;
+    outline: none;
+    color: #fff;
+    text-align: center;
+    background: rgb(0, 150, 255);
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.wrapper {
+    justify-content: center;
+    align-items: center;
+    display: block;
+    text-align: center;
+    margin: auto;
+}

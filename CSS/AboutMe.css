@@ -1,0 +1,39 @@
+@import url('./base.css');
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+.container {
+    position: relative;
+    max-width: auto;
+    margin: auto;
+    margin-top: 4rem;
+    padding: 1rem;
+    border: 1px solid #393e46;
+    border-radius: 0.25rem;
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
